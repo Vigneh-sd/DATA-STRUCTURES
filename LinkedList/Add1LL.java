@@ -38,6 +38,7 @@ public static void print(Node head)
         System.out.print(temp.data+" ");
         temp=temp.next;
     }
+    
 }
 public static Node reverserecursive(Node head)
  {
