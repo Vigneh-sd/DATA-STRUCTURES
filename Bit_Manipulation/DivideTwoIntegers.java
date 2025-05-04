@@ -7,8 +7,8 @@ public class DivideTwoIntegers {
        {
         flag=false;
        }
-       long num1=Math.abs(dividend);
-       long num2=Math.abs(divisor);
+       long num1=Math.abs((long)dividend);
+       long num2=Math.abs((long)divisor);
       int ans=0;
        while(num1>=num2)
        {
@@ -20,9 +20,13 @@ public class DivideTwoIntegers {
         num1-=num2<<(cnt);
         ans+=1<<cnt;
        }
-       if(ans==1<<31 && flag==true) return Integer.MAX_VALUE;
-        if(ans==1<<31 && flag==false) return Integer.MIN_VALUE;
-        return flag ? ans : -ans;
+       if(flag==false)
+       {
+         ans=-ans;
+       }
+        if (ans > Integer.MAX_VALUE) return Integer.MAX_VALUE;
+        if (ans < Integer.MIN_VALUE) return Integer.MIN_VALUE;
+        return ans;
    }
     public static void main (String[] args) {
        int dividend=22;
