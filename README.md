@@ -7,25 +7,6 @@ Welcome to my personal repository of **Data Structures and Algorithms** problems
 
 ---
 
-## 🗂️ Folder Structure (Topics Covered)
-
-📁 DS/
-├── Arrays_DS/
-├── Arrays_Nums_basic/
-├── BinarySearchTree/
-├── BinaryTree/
-├── Bit_Manipulation/
-├── Graph/
-├── Greedy/
-├── Heap/
-├── LinkedList/
-├── Math/
-├── Recursion/
-├── Stack_Queue/
-└── TwoPointer&SlidingWindow/
-
----
-
 
 Each folder contains:
 - ✅ Java solutions
