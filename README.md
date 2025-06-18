@@ -1,6 +1,6 @@
 # 📘 Data Structures & Algorithms in Java
 
-Welcome to my personal repository of **Data Structures and Algorithms** problems, solved in **Java**. This repo follows the legendary [Striver's DSA Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) and includes clean, efficient code for interview preparation.
+Welcome to my personal repository of **Data Structures and Algorithms** problems, solved in **Java**. This repo follows [Striver's DSA Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) and includes clean, efficient code for interview preparation.
 
 > 🧠 Solved over **143+ problems** on [LeetCode](https://leetcode.com/Vignesh_0703/)  
 > 🔧 All solutions are structured folder-wise with clear Java implementations.
